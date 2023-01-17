@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Display-Medium";
+  src: url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.eot");
+  src: url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.woff") format("woff"),
+        url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.woff2") format("woff2"),
+        url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.ttf") format("truetype"),
+        url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Myriad-Regular";
+  src: url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.eot");
+  src: url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.woff") format("woff"),
+        url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.woff2") format("woff2"),
+        url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.ttf") format("truetype"),
+        url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$color-background: #ffffff;
+$color-text: #616161;
+$color-text-black: #141419;
+$color-page-decoration: #fb973b;
+$color-input: #f8f8f8;
+
+html {
+  font-size: 10px;
+}
+
+.title {
+  font-family: 'Calibri';
+  font-size: 6rem;
+  color: $color-text-black;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+
+.title__line {
+  background-image: linear-gradient(to right, $color-page-decoration 0%, $color-page-decoration 100%);
+  background-repeat: repeat-x; 
+  background-position: left 0px bottom 15px; 
+  background-size: 100% 10px; 
+}
+
+.page {
+  max-width: 1250px;
+  margin: 28px auto;
+  background-color: $color-background;
+  background-image: url(./assets/images/page-background.png);
+  background-position: top 15px right 40px;
+  background-repeat: no-repeat;
+  font-family: "Myriad-Regular";
+  font-size: 2.4rem;
+  color: $color-text;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.menu__item {
+  list-style-type: none;
+}
+
+.menu__link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: $color-text;
+}
+
+.telephone {
+  display: flex;
+  align-items: center;
+}
+
+.telephone__link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: $color-text-black;
+  font-weight: bold;
+}
+
+.section-screen {
+  padding-top: 30px;
+  background-image: url(./assets/images/screen-background.png);
+  background-position: top 50% right -280px;
+  background-repeat: no-repeat;
+}
+
+.screen__content {
+  width: 660px;
+}
+
+.screen__description {
+  width: 325px;
+  line-height: 35px;
+}
+
+.text-decoriton {
+  color: $color-page-decoration;
+  font-weight: bold;
+}
+
+.screen__form {
+  display: flex;
+  padding: 13px 0 110px;
+}
+
+.input, 
+.button {
+  box-sizing: border-box;
+  height: 57px;
+  width: 195px;
+}
+
+.input {
+  background-color: $color-input;
+  border: solid 1px #e1e1e1;
+  color: $color-text-black;
+}
+
+.button {
+  background-color: $color-page-decoration;
+  border: none;
+  color: #ffffff;
+}

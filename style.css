@@ -1,1 +1,143 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "Display-Medium";
+  src: url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.eot");
+  src: url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.woff") format("woff"), url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.woff2") format("woff2"), url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.ttf") format("truetype"), url("./assets/fonts/SF_UI_Display_Medium/sf_ui_display_medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Myriad-Regular";
+  src: url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.eot");
+  src: url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.woff") format("woff"), url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.woff2") format("woff2"), url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.ttf") format("truetype"), url("./assets/fonts/Myriad_Pro_Regular/myriadpro-regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+
+.title {
+  font-family: 'Calibri';
+  font-size: 6rem;
+  color: #141419;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+
+.title__line {
+  background-image: -webkit-gradient(linear, left top, right top, from(#fb973b), to(#fb973b));
+  background-image: linear-gradient(to right, #fb973b 0%, #fb973b 100%);
+  background-repeat: repeat-x;
+  background-position: left 0px bottom 15px;
+  background-size: 100% 10px;
+}
+
+.page {
+  max-width: 1250px;
+  margin: 28px auto;
+  background-color: #ffffff;
+  background-image: url(./assets/images/page-background.png);
+  background-position: top 15px right 40px;
+  background-repeat: no-repeat;
+  font-family: "Myriad-Regular";
+  font-size: 2.4rem;
+  color: #616161;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__item {
+  list-style-type: none;
+}
+
+.menu__link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #616161;
+}
+
+.telephone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.telephone__link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #141419;
+  font-weight: bold;
+}
+
+.section-screen {
+  padding-top: 30px;
+  background-image: url(./assets/images/screen-background.png);
+  background-position: top 50% right -280px;
+  background-repeat: no-repeat;
+}
+
+.screen__content {
+  width: 660px;
+}
+
+.screen__description {
+  width: 325px;
+  line-height: 35px;
+}
+
+.text-decoriton {
+  color: #fb973b;
+  font-weight: bold;
+}
+
+.screen__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px 0 110px;
+}
+
+.input,
+.button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 57px;
+  width: 195px;
+}
+
+.input {
+  background-color: #f8f8f8;
+  border: solid 1px #e1e1e1;
+  color: #141419;
+}
+
+.button {
+  background-color: #fb973b;
+  border: none;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

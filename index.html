@@ -8,9 +8,10 @@
   <title>Элипслед</title>
 </head>
 <body class="page">
+  <div class="wrapper">
     <header class="header">
       <div class="logo">
-        <img src="./assets/images/logo.png" alt="logo">
+        <img src="./assets/images/logo.png" alt="logo" class="logo__img">
       </div>
       <ul class="menu">
         <li class="menu__item">
@@ -32,18 +33,45 @@
       <div class="telephone">
         <a class="telephone__link" href="tel:89152543992">89152543992</a>
       </div>
+
+      <div class="hamburger">
+        <div class="hamburger__line"></div>
+      </div>
+
+      <div class="header__modal-menu">
+        <div class="wrapper-modal-menu">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Нам доверяют</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Фотографии</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Сертификаты</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Где нас найти?</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main class="main">
       <section class="section-screen">
         <div class="screen__content">
-          <h2 class="title"><span class="title__line">У нас вы найдете лучшие светодиодные лампы для животоводства</span></h2>
-          <p class="screen__description">Оставьте нам свой номер, и получите <span class="text-decoriton">бесплатный</span> рассчет специально для вас!</p>
+          <h2 class="title"><span class="title__line">У нас вы найдете лучшие светодиодные лампы <br> для животоводства</span></h2>
+          <p class="screen__description">Оставьте нам свой номер, <br> и получите <span class="text-decoriton">бесплатный</span> рассчет специально для вас!</p>
           <form class="screen__form">
-            <input type="tel" class="input" name="phone" placeholder="7 (xxx) xxx xx xx"></button>
+            <input type="tel" class="input" name="phone" placeholder="7 (xxx) xxx xx xx">
             <button class="button">Отправить</button>
           </form>
         </div>
+        <img class="section-screen__background" src="./assets/images/screen-background.png" alt="background">
       </section>
 
       <section class="section-about">
@@ -59,7 +87,8 @@
         </div>
       </section>
     </main>
-
     <footer></footer>
+  </div>
+  <script src="./index.js"></script>
 </body>
 </html>
